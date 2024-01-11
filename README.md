@@ -16,5 +16,5 @@
 python3 fecAPI.py
 ```
 5. The script will also save the raw json results in a file called `fec_api_results.json`. To make these results more readable, follow the instructions in the **Setup** section above
-6. Create a new file with the same structure as step 4, but that reaches `receipt` in Massachusetts for 2022 as the endpoint named `fecapi_receipts.py`. Add a `_receipts` to the output `.json` file. 
-7. Create a new file with the same structure as step 4, but that reaches `loans` in Massachusetts for 2022 as the endpoint named `fecapi_loans.py`. Add a `_loans` to the output `.json` file.
+6. Create a new `.py` file with the same structure as step 4, but that reaches `receipt` in Massachusetts for 2022 as the endpoint named `fecapi_receipts.py`. Add a `_receipts` to the output `.json` file. 
+7. Create a new `.py` file with the same structure as step 4, but that reaches `loans` in Massachusetts for 2022 as the endpoint named `fecapi_loans.py`. Add a `_loans` to the output `.json` file.
