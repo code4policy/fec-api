@@ -7,7 +7,7 @@ import os
 base_url = 'https://api.open.fec.gov/v1/'
 
 # 
-operation = 'receipts'
+operation = 'candidate'
 
 # 
 key = os.environ['FECKEY']
@@ -24,7 +24,7 @@ data = json.loads(response.text)
 
 # 
 with open('fec_api_results.json', 'w') as outfile:
-    json.dump(data, outfile)
+    json.dump(data, outfile, indent=2)
 
 # 
 for candidate in data['results']:
